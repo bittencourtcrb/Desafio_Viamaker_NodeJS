@@ -1,0 +1,10 @@
+{
+  "type": "mongodb",
+  "host": "localhost",
+  "port": 27017,
+  "database": "Viamaker",
+  "useUnifiedTopology": true,
+  "entities": [
+    "./src/modules/**/infra/typeorm/entities/*.ts"
+  ]
+}
